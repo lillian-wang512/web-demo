@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html xmlns="http://w3.org/1999/xmlns">
+<head>
+    <meta charset="utf-8">
+    <title>web作业个人blog—个人主页</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.css">
+    <script src="scripts/javascript.js"></script>
+</head>
+
+<body>
+
+<!-- 导航栏可以缩进的 -->
+ <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+        <header>Guide</header>
+        <ul>
+            <li><a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
+            <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+            <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
+            <li><a href="#"><i class="far fa-question-circle"></i>About</a></li>
+            <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+            <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
+        </ul>
+    </div>
+
+    <!--头部-->
+     <div class="title1">
+          
+     </div>
+    <div class="header">
+        	<h1 class="white">凌玥のblog</h1>
+    </div>
+
+    <!--导航栏-->
+    <div class="nav">
+        <ul>
+        	<li>
+                <p><a href="index.html">主页</a></p>
+                <ul>
+                    <li>注解</li>
+                </ul>
+            </li>
+            <li>
+                <p><a href="songs.html" target="_Blank">Songs</a></p> 
+                 <ul>
+                    <li>属性</li>
+                    <li>元素</li>
+                    <li>注释</li>
+                </ul>
+            </li>
+            <li>
+                <p><a href="movie.html" target="_Blank">Movies</a></p>
+                <ul>
+                    <li>样式</li>
+                    <li>注解</li>
+                </ul>
+            </li>
+            
+            <li>
+            	<p>
+                   <!--  可以下拉的选项栏，可点进网页哦 -->
+            	   <span style=" position:absolute; overflow:hidden;width:188px;height:27px;clip:rect(-1px 190px 190px 170px);">
+                   <select name="aabb" id="aabb" style="width:190px;height:20px;margin:-2px;"
+                   onChange="javascript:document.getElementById('ccdd').value=document.getElementById('aabb').options[document.getElementById('aabb').selectedIndex].value;location.href=this.value">
+                   <option value="" style="color:#c2c2c2;">--请选择--</option>                  
+                   <option value="http://www.baidu.com">百度</option>
+                   <option value="https://www.sina.com.cn/">新浪网</option>
+                   <option value="https://www.bilibili.com/">哔哩哔哩</option>
+                   <option value= "https://music.163.com/">网易云</option>
+                   <option value="https://weibo.com/charlieper?is_all=1">周深微博</option>
+                   </select>
+                   </span>
+                   <span style="position:absolute; width:170px;height:19px;">
+                   <input type="text" name="ccdd" id="ccdd" value="可选择也可输入的下拉框" style="width:170px;height:15px;border:0pt;" onkeyup="onku()">
+                   </span>
+            	</p>
+            </li>
+        </ul>
+        
+    </div>
+
+    <!--主体内容-->
+    <div class="article">
+
+        <!--左侧菜单栏-->
+        <div class="aside">
+            <ul>
+                <li><img src="image/头像2.jpg" class="touxiang"></li>
+                <li class="jianjie">个人简介</li>
+                <li class="jianjie2"><p>这里是王凌玥，一个中传的学生。<br/>专业是网安。喜欢绘画，喜欢摄影。最近想尝试去学习更多的技能，希望拥有丰富多彩的人生。<br/>
+                喜欢的歌手是周深。想要去接受新鲜的事物，尝试从未体验过的生活。<br/>希望可以成为一个更好的大人。
+                <br/>希望可以成为光。</p></li>
+
+            </ul>
+        </div>
+
+        <!--右侧内容-->
+        <div class="section">
+            <div class="search">
+            	<form action="" class="parent">
+                      <input type="text" class="search" placeholder="搜索">
+                      <input type="button" name="" id="" class="btn">
+                </form>
+            </div>
+            <div class="fl">
+                 <div id="show">显示时间的位置</div>
+            </div>
+        </div>
+
+        <!--  中间内容 -->
+        <div class="section2">
+            <div class="center">欢迎来到凌玥のblog!>_<</div> 
+            <div class="zuoyouming">愿你所遇之事皆如意,愿你所行之路皆己愿。</div>
+            <br/>  
+            <div class="wen1">&nbsp&nbsp莎士比亚在《仲夏夜之梦》中这样说道，凡是生长的东西，不到季节总不会成熟。<br/>&nbsp&nbsp万物皆有裂痕,&nbsp那是光,&nbsp进来的地方。 </div>
+            <div class="wen2"><strong>All men have the stars,but they are not the same things for different people.</strong></div>
+            <div class="wen1">每一个人都有自己的星星，但其中的含意却因人而异。对旅人而言，星星是向导；对其他人而言，它们只不过是天际中闪闪发光的小东西而已；对学者而言，星星则是一门待解的难题；对我那位商人来说，它们就是财富。不过，星星本身是沉默的。你，只有你，了解这些星星与众不同的含义。</div>
+            <div class="wen1">希望可以成为星星，照亮自己前行的路；可以站在舞台中央，焕发出自己的光芒。无论最后成为什么样的人，
+            都不会后悔现在所做的每一件事。<br/>不要过一眼就看到头的人生，活出自己的色彩。</div>
+        </div>
+
+    </div>
+
+
+    <!--底部-->
+    <div class="footer">
+        <span>版权所有@王凌玥</span>
+        <span>违法必究</span>
+        <span>本页所用图片全部来源于网络 侵删</span>
+    </div>
+
+</body>
+</html>

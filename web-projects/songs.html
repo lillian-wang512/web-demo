@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns="http://w3.org/1999/xmlns">
+<head>
+	<title>我喜欢的音乐</title>
+	<meta charset="utf-8">
+    <script src="scripts/javascript.js"></script>
+    <link rel="stylesheet" href="css/songstyle.css">
+	<style type="text/css">
+        .qian{
+            text-align: center;
+            height: 70%;
+            width: 100%
+        }
+        .taici{
+             text-align: center;
+            font-size: 30px;
+            font-family: "宋体";
+            line-height:30px;
+            color: #fdeca6;
+        }
+
+    </style>   
+
+</head>
+
+<body>
+
+    <!--头部-->
+     <div class="title1">
+          
+     </div>
+    <div class="header">
+        	<h1 class="white">凌玥のblog</h1>
+    </div>
+
+    <!--导航栏-->
+    <div class="nav">
+        <ul>
+            <li>
+                <p><a href="index.html" target="_Blank">主页</a></p>
+                <ul>
+                    <li>注解</li>
+                </ul>
+            </li>
+            <li>
+               <p><a href="songs.html">Songs</a></p> 
+                <ul>
+                    <li>属性</li>
+                    <li>元素</li>
+                    <li>注释</li>
+                </ul>
+            </li>
+            <li>
+               <p><a href="movie.html" target="_Blank">Movies</a></p>
+                <ul>
+                    <li>样式</li>
+                    <li>注解</li>
+                </ul>
+            </li>
+            
+              <li>
+                <p>
+                   <span style=" position:absolute; overflow:hidden;width:188px;height:27px;clip:rect(-1px 190px 190px 170px);">
+                   <select name="aabb" id="aabb" style="width:190px;height:20px;margin:-2px;"
+                   onChange="javascript:document.getElementById('ccdd').value=document.getElementById('aabb').options[document.getElementById('aabb').selectedIndex].value;location.href=this.value">
+                   <option value="" style="color:#c2c2c2;">--请选择--</option>                  
+                   <option value="http://www.baidu.com">百度</option>
+                   <option value="https://www.sina.com.cn/">新浪网</option>
+                   <option value="https://www.bilibili.com/">哔哩哔哩</option>
+                   <option value= "https://music.163.com/">网易云</option>
+                   <option value="https://weibo.com/charlieper?is_all=1">周深微博</option>
+                   </select>
+                   </span>
+                   <span style="position:absolute; width:170px;height:19px;">
+                   <input type="text" name="ccdd" id="ccdd" value="可选择也可输入的下拉框" style="width:170px;height:15px;border:0pt;" onkeyup="onku()">
+                   </span>
+                </p>
+            </li>
+            
+        </ul>
+        
+    </div>
+
+    <!--主体内容-->
+    <div class="article">
+
+        
+
+        <!--右侧内容-->
+        <div class="section">
+            <div class="search">
+            	<form action="" class="parent">
+                      <input type="text" class="search" placeholder="搜索">
+                      <input type="button" name="" id="" >
+                </form>
+            </div>
+            <div class="fl">
+                 <div id="show">显示时间的位置</div>
+            </div>
+            <br/>
+            <div class="ganxiang">
+                这是宫崎骏老先生的《千与千寻》主题曲<br/>
+                由我喜欢的歌手周深在2020年b站跨年上演唱<br/>
+                他的声音很清澈，明亮，带我回到了小时候在班里看千与千寻的场景。<br/>
+                我爱这声音，爱这明净通透，这也许就是我喜欢他的理由吧。只有心灵纯净的人才能唱出这样的声音。
+            </div>
+        </div>
+
+        <!--  中间内容 -->
+        <div class="section2">
+            <div class="zuoyouming">愿你所遇之事皆如意,愿你所行之路皆己愿。</div>
+            <br/>  
+            <div class="qian">
+                <embed src="image/qianqian.mp4" autostart="false" height="90%" width="90%" />
+            </div>
+            <div class="taici">
+                <strong>いつまでも愛している</strong>
+            </div>
+        </div>
+
+    </div>
+
+    <!--底部-->
+    <div class="footer">
+        <span>版权所有@王凌玥</span>
+        <span>违法必究</span>
+        <span>本页所用图片全部来源于网络 侵删</span>
+    </div>
+
+</body>
+</html>

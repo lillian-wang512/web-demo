@@ -1,0 +1,184 @@
+       *{
+            margin: 0; /*整体去除外边距*/
+            padding: 0; /*整体去除内边距*/
+            list-style: none;
+            text-decoration: none;
+        }
+        body{
+        	font-family:"微软雅黑";
+        	color: white;
+
+         } /*设置整体字体*/
+        .title1{
+        	 width: 100%;/*自适应网页宽度*/
+        	 height: 90px;/*设置图片高度*/
+        	 background: url(../image/star2.jpg);/*引用图片,相对路径*/
+        }
+        .header{
+            width: 100%; /* 头部宽度为整个网页100% */
+            height: 55px; /* 头部高为60像素 */
+             background: url(../image/star2.jpg);
+        }
+        .white{
+        	color: white;
+        	font-weight: 700;
+        	font-size: 35px;
+        }
+        .header h1{
+            text-align: center; /* 头部中的h1标签居中显示 */
+        }
+        .nav{
+            width: 100%; /* 导航栏宽度为整个网页100% */
+            height: 36px; /* 导航栏高度为36像素 */
+            background-color: #5e626a;  /* 导航栏底色为#e4beed */
+            line-height: 36px;
+        }
+        .nav ul{
+            margin-left: 20%; /* 导航栏下的ul标签与左侧距离为导航栏宽度的30% */
+        }
+        .nav li{
+            float: left; /* 导航栏下的li标签整体向左浮动 */
+            list-style: none;  /*去掉导航栏下的li标签前的小圆点*/
+            margin-left: 100px; /*导航栏下的li标签与其左侧标签的距离为100像素 */
+        }
+        .nav >ul >li >ul{
+            display: none;  /* 隐藏所有li标签*/
+            position: absolute;
+            background-color: blue;
+            color: #333;
+        }
+        .nav >ul <li:hover >ul{
+            display: block; /* 点击导航栏下的第一级li时显示隐藏的第二级li标签内容，行内元素变块元素*/
+        }
+        .article{
+            width: 100%; /* 主体内容宽度为整个网页100% */
+            height: 600px; /* 主体内容高度为600像素 */
+        }
+       
+        .section{
+            width: 20%; /* 右侧内容宽度为主体内容宽度的80%*/
+            height: 600px; /* 右侧内容栏高度为600像素 */
+            float:right; /* 右侧菜单栏整体向右浮动，达到使右边内容栏与左侧菜单栏同在一行的目的*/
+            background:url(../image/star4.gif); /* 右侧内容栏*/
+            background-size: 100%;
+        }
+        .container {
+            height: 70px;
+            width: 800px;
+            margin: 100px auto 0 auto;
+        }
+        .parent {
+            position: relative;
+        }
+        .search {
+            width: 200px;
+            height: 20px;
+            border-radius: 18px;
+            outline: none;
+            margin-top: 5%; /* 左侧菜单栏下的ul标签距离左侧菜单栏顶部的距离为菜单栏高度的20%*/
+            margin-left: 5%;/* 左侧菜单栏下的ul标签距离左侧菜单栏左边的距离为菜单栏宽度度的30%*/
+            position: relative;
+        }
+       
+        .section2{
+            width: 80%; /* 右侧内容宽度为主体内容宽度的80%*/
+            height: 600px; /* 右侧内容栏高度为600像素 */
+            float:right; /* 右侧菜单栏整体向右浮动，达到使右边内容栏与左侧菜单栏同在一行的目的*/
+            background:url(../image/小王子1.jpg); /* 右侧内容栏*/
+            background-size: 100%;
+        }
+        .center{
+        	text-align: center; /* 底部内容整体居中显示 */
+        	font-size: 28px;
+        	font-family: "微软雅黑";
+        	margin-top: 4%;
+        }
+        .zuoyouming{
+        	text-align: center; /* 底部内容整体居中显示 */
+        	font-size: 24px;
+        	font-family: "华文行楷";
+        	margin-top: 5%;
+        }
+        .wen1{
+        	margin-left: 3%;
+        	font-size: 18px;
+        	font-family: "华文新魏";
+        	margin-top: 3%;
+        	line-height:30px;
+        	color: #fdeca6;
+        }
+        .wen2{
+        	margin-left: 3%;
+        	font-size: 18px;
+        	font-family: "Bradley Hand ITC";
+        	margin-top: 3%;
+        	line-height:30px;
+        	color: #fdeca6;
+        }
+        .fl{
+        	text-align: center;
+        	height: 10px;
+        	width: 50;
+        	margin-top: 20%;
+        	font-family: "幼圆";
+        	font-size:15px;
+        	color: white;
+        }
+        .footer{
+            width: 100%; /* 底部宽度为网页宽度的80% */
+            height: 36px; /* 底部高度为36像素 */
+            background:url(../image/star2.jpg); /* 底部颜色为#d7bdde */
+            text-align: center; /* 底部内容整体居中显示 */
+        }
+        .footer span{
+            margin-left: 50px; /* 底部下的span标签与其左侧标签的距离为50像素*/
+            color: #ebeef5; /* 底部下的span标签的字体颜色为#2f2f2f */
+            font-size: 10px; /* 底部下的span标签的字体大小为20像素 */
+        }
+        .MP4{
+            text-align: center;
+            height: 60%;
+            width: 100%
+        }
+        .taici1{
+            text-align: center;
+            font-size: 30px;
+            font-family: "Bradley Hand ITC";
+            line-height:30px;
+            color: #fdeca6;
+        }
+        .ganxiang{
+            margin-left: 3%;
+            margin-top: 4%;
+            font-size: 18px;
+            font-family: "方正舒体";
+            line-height:30px;
+            color: #fdeca6;
+        }
+
+
+    a:link{
+        color: white;
+    }
+    a:visited{
+        color: white;
+    }
+    a:hover{
+        color: purple;
+    }
+
+   /* 评论区设置*/
+   .div1{
+            width: 100%;
+            margin:0 auto;
+            background: url(../image/star2.jpg);
+        }
+    #user{
+        width: 20%;
+        height: 15px;
+    }
+    #lang{
+        width: 50%;
+        height: 80px;
+        margin-left: 40px;
+    }
